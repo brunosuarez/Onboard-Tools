@@ -3,10 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FerramentasComponent } from './ferramentas/ferramentas.component';
+import { LoginComponent } from './login/login.component';
+import { StatusComponent } from './status/status.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { DadosSellerComponent } from './dados-seller/dados-seller.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FerramentasComponent,
+    LoginComponent,
+    StatusComponent,
+    DashboardComponent,
+    DadosSellerComponent
   ],
   imports: [
     BrowserModule,
