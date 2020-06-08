@@ -1,27 +1,37 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
 body{
+    margin: 0;
+    padding: 0;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,11,11,1) 100%, rgba(0,212,255,1) 100%);
 }
 
-.pg-inicial{
-    text-align: center;
-    font-family: 'Montserrat', serif;
-    color: #ffa250;
-    margin-top: 12%;
-    
+h1, h2{
+    color: white;
+}
+
+form{
+    padding: 2%;
 }
 
 a{
     text-decoration: none;
     background-color: #ffff;
-    color: #000000;
+    color: black;
     border: 1px solid;
     border-radius: 5px;
     padding: 0.7%;
+    font-weight: bold;
 }
 
 a:hover{
     background-color: #e69e19;
 }
 
-
+.field-rec{
+    color: white;
+    
+}

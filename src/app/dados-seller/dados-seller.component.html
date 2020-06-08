@@ -1,4 +1,3 @@
-<p>dados-seller works!</p>
 <head>
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,13 +13,68 @@
     <header>
         <nav class="menu-principal">
             <ul>
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Dados Seller</a></li>
-                <li><a href="#">Ferramentas</a></li>
-                <li><a href="#">Status</a></li>
+                <li><a href="../ferramentas/ferramentas.component.html"><b>Ferramentas</b></a></li>
+                <li><a href="../dados-seller/dados-seller.component.html"><b>Dados Seller</b></a></li>
+                <li><a href="../dashboard/dashboard.component.html"><b>Dashboard</b></a></li>
+                <li><a href="../status/status.component.html"><b>Informações</b></a></li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section class="container">
+            <h2>Dados do Seller</h2>
+            <label for="">Digite o Oi ou Nome do Seller</label><br>
+            <input type="search"  placeholder="Pesquisa" size="30">
+            <h3>Aditivos e Implantações</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome do Seller</th>
+                        <th>Marketplace/Plat.</th>
+                        <th>Tipo</th>
+                        <th>Status</th>
+                        <th>Analista</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-pacientes">
+                    <tr class="paciente" id="primeiro-paciente">
+                        <td class="info-nome">Marabraz</td>
+                        <td class="info-peso">Amazon</td>
+                        <td class="info-altura">Aditivo</td>
+                        <td class="info-gordura">Finalizado</td>
+                        <td class="info-gordura">Higor</td>
+                    </tr>
+
+                    <tr class="paciente" id="primeiro-paciente">
+                        <td class="info-nome">Acer</td>
+                        <td class="info-peso">Bling</td>
+                        <td class="info-altura">Implantação</td>
+                        <td class="info-gordura">Finalizado</td>
+                        <td class="info-gordura">Takano</td>
+                    </tr>
+
+                    <tr class="paciente" id="primeiro-paciente">
+                        <td class="info-nome">Lacoste</td>
+                        <td class="info-peso">Amazon</td>
+                        <td class="info-altura">Aditivo</td>
+                        <td class="info-gordura">Em Processo</td>
+                        <td class="info-gordura">Marega</td>
+                    </tr>
+
+                    <tr class="paciente" id="primeiro-paciente">
+                        <td class="info-nome">Toymania</td>
+                        <td class="info-peso">Mercado Livre</td>
+                        <td class="info-altura">Aditivo</td>
+                        <td class="info-gordura">Em Processo</td>
+                        <td class="info-gordura">Renato</td>
+                    </tr>
+                </tbody>
+            </table><br>
+
+         <a class="bt-return" href="../ferramentas/ferramentas.component.html">Voltar</a>
+
+        </section>
+    </main>
 </body>
 
-<footer>Mentoria - Bruno Soares x Alan Lira</footer>

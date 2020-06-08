@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { StatusComponent } from './status/status.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DadosSellerComponent } from './dados-seller/dados-seller.component';
+import { RegistroComponent } from './registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DadosSellerComponent } from './dados-seller/dados-seller.component';
     LoginComponent,
     StatusComponent,
     DashboardComponent,
-    DadosSellerComponent
+    DadosSellerComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,

@@ -1,63 +1,77 @@
 *{
     font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
-  }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,11,11,1) 100%, rgba(0,212,255,1) 100%);
+}
   
-  header {
+header {
     height: 30vh;
     display: flex;
     justify-content: center;
-  }
+}
   
-  .menu-principal {
-    background-color: black;
+.menu-principal {
+    background-color: #f0f0f0;
     position: fixed;
     top: 0;
     width: 100vw;
-  }
+}
   
-  .menu-principal ul {
+.menu-principal ul {
     display: flex;
     justify-content: space-around;
-  }
+}
   
-  .menu-principal li {
+.menu-principal li {
     list-style: none;
-  }
+}
   
-  .menu-principal a {
-    color: darkorange;
+.menu-principal a {
+    color: #000000;
     display: inline-flex;
     padding: 9px;
     text-decoration: none;
-  }
-  
-  .button {
-    /*display: inline-block;*/
-    padding: 15px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;	
+}
+
+a{
     text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: darkorange;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .button:hover {background-color: black}
-  
-  .button:active {
-    box-shadow: 0 2px #333333;
-    transform: translateY(4px);
-  }
-  
-  footer{
-      background-color: black;
-      color: white;
-      text-align: center;
-  }
+    color: #f0f0f0;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.gerar-pedidos {
+    display: flex;
+    flex-direction: column;
+ }
+
+.corte-planilha{
+    display: flex;
+    flex-direction: column;
+}
+
+.gerar-cep{
+    display: flex;
+    flex-direction: column;
+}
+
+.manuais{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
   

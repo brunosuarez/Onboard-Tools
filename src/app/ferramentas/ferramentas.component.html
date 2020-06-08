@@ -5,7 +5,6 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./ferramentas.component.css">
-    <link rel="shortcut icon" href="ferramentas.css" type="image/x-icon">
 
     <title>Ferramentas - Onboard Tools</title>
 </head>
@@ -14,21 +13,32 @@
     <header>
         <nav class="menu-principal">
             <ul>
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Dados Seller</a></li>
-                <li><a href="#">Ferramentas</a></li>
-                <li><a href="#">Status</a></li>
+                <li><a href="../ferramentas/ferramentas.component.html"><b>Ferramentas</b></a></li>
+                <li><a href="../dados-seller/dados-seller.component.html"><b>Dados Seller</b></a></li>
+                <li><a href="../dashboard/dashboard.component.html"><b>Dashboard</b></a></li>
+                <li><a href="../status/status.component.html"><b>Informações</b></a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <button class="button">Gerar Pedidos</button>
-        <button class="button">Corte de Planilha</button>
-        <button class="button">Gerar CEP</button>
-        <button class="button">Gerar Pedidos</button>
+        <div class="gerar-pedidos">
+            <img src="../../assets/imgs/copy.png" alt="Gerar Pedidos">
+            <a href="#">Gerar Pedidos</a>
+        </div>
+        <div class="corte-planilha">
+            <img src="../../assets/imgs/planilha.png" alt="Corte de Planilha">
+            <a href="#">Corte de Planilha</a>
+        </div>
+        <div class="gerar-cep">
+            <img src="../../assets/imgs/correios.png" alt="Gerar CEP">
+            <a href="#">Gerar CEP</a>
+        </div>
+        <div class="manuais">
+            <img src="../../assets/imgs/manual.png" alt="Manuais">
+            <a href="#">Manuais</a>
+        </div>
     </main>
 
-    <footer>Mentoria - Bruno Soares x Alan Lira</footer>
-
+   
 </body>
