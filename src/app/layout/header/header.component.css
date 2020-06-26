@@ -1,0 +1,28 @@
+header {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-principal {
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+  
+.menu-principal ul {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.menu-principal li {
+    list-style: none;
+}
+  
+.menu-principal a {
+    color: #000000;
+    display: inline-flex;
+    padding: 9px;
+    text-decoration: none;
+}
