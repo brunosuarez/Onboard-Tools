@@ -8,35 +8,6 @@ body{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,11,11,1) 100%, rgba(0,212,255,1) 100%);
 }
-  
-header {
-    height: 30vh;
-    display: flex;
-    justify-content: center;
-}
-  
-.menu-principal {
-    background-color: #f0f0f0;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-}
-  
-.menu-principal ul {
-    display: flex;
-    justify-content: space-around;
-}
-  
-.menu-principal li {
-    list-style: none;
-}
-  
-.menu-principal a {
-    color: #000000;
-    display: inline-flex;
-    padding: 9px;
-    text-decoration: none;
-}
 
 a{
     text-decoration: none;
