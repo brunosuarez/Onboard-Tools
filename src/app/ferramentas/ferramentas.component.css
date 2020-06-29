@@ -43,10 +43,10 @@ a{
     color: #f0f0f0;
 }
 
-main{
+main {
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: center;
 }
 
 .gerar-pedidos {
