@@ -3,24 +3,7 @@ Projeto Desenvolvido na DB1 Group no time de Implantação do Produto Anymarket.
 O objetivo desse projeto é oferecer uma página que concentra ferramentas úteis para o time no processo de implantação. 
 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+:uk: :us: <br>
+Project developed at DB1 Group within the Anymarket Product Implementation team.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The main goal of this project is to provide a centralized page that offers a range of useful tools for the team during the implementation process.
