@@ -1,9 +1,8 @@
 # OnboardTools
-Projeto Desenvolvido na DB1 Group no time de Implantação do Produto Anymarket.
-O objetivo desse projeto é oferecer uma página que concentra ferramentas úteis para o time no processo de implantação. 
+Esse projeto de mentoria tem por objetivo fornecer um painel de funcionalidades para o time de Implantação de um produto.
+Neste painel o analista conseguiria agilizar seu trabalho e consultar informações importantes.
 
 
 :uk: :us: <br>
-Project developed at DB1 Group within the Anymarket Product Implementation team.
-
+The purpose of this mentorship project is to provide a feature-rich dashboard for the Product Implementation team. Within this dashboard, analysts can streamline their work and access crucial information efficiently.
 The main goal of this project is to provide a centralized page that offers a range of useful tools for the team during the implementation process.
